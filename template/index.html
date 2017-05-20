@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>{{.Query}}</title>
+		<link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+	</head>
+	<body>
+		<nav>
+			<a href="/">Return to index</a>
+		</nav>
+		<form id="search-form" method="get" action="search">
+			<input id="search-input" type="text" name="query" value="{{.Query}}" required>
+			<input type="submit" value="Search">
+		</form>
+		<ul id="result-list">
+		{{range .Files}}
+		<li><a href="/file/{{.}}" download>{{.}}</a></li>
+		{{end}}
+		</ul>
+	</body>
+</html>
