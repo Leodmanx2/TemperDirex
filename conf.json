@@ -1,4 +1,6 @@
 {
-	"ServeDirectory": "/home/leo/torr/",
-	"TLS" : "tls"
+	"ServeDirectory": "/serve",
+	"TLS": "plain",
+	"Cert": "tls/cert.pem",
+	"Key": "tls/key.pem"
 }
