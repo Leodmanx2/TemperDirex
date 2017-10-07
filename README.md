@@ -7,8 +7,8 @@ To build it simply run `go get bitbucket.org/leodmanx2/TemperDirex`.
 The binary will be in $GOPATH/bin.
 
 The program requires `template/` and `conf.json` to be in the working
-directory. You can run it from `$GOPATH/src/bitbucket.org/leodmanx2/
-TemperDirex/` or copy these out.
+directory. You can run it from
+`$GOPATH/src/bitbucket.org/leodmanx2/TemperDirex/` or copy these out.
 
 Configuration
 -------------
